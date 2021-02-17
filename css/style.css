@@ -106,7 +106,6 @@ section {
 
 nav ul {
   list-style: none;
-  margin-left: 700px;
 }
 
 blockquote,
@@ -175,6 +174,11 @@ select {
   vertical-align: middle;
 }
 
+/* .clear::after{
+  content:"";
+  clear: both;
+  display: block; */
+/* } */
 /*------------------------*/
 /*   　　共通のスタイル      */
 /*------------------------*/
@@ -244,6 +248,18 @@ body {
   margin-left: 35px;
   color: #fff;
   line-height: 70px;
+}
+
+.header-left{
+  float: left;
+}
+
+.header-right{
+float: right;
+}
+
+ul{
+  text-align: right;
 }
 
 .header-nav li {
@@ -586,6 +602,9 @@ display: block;
 .faq {
    width: 100%;
   padding: 3px 0;
+  /* display: flex; */
+      margin: 0 auto;
+    margin-bottom: 40px;
 }
 
 
@@ -598,13 +617,16 @@ display: block;
 }
 
 .faq-title {
-    margin-left: 40px;
-    line-height: 157px;
+    margin-left: 25%;
+    line-height: 140px;
+    font-size: 35px;
 }
 
 .faq-title-jp {
-    line-height: 75px;
-    margin-left: -40px;
-}
+    line-height: 140px;
+    display: inline;
+    margin: 0 auto;
+  }
+
 
 }
