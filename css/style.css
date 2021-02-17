@@ -539,11 +539,9 @@ body {
     margin: auto;
     padding: 0 10px;
     left: 0; 
+    top: 40%;
 }
 
-.news-icon {
-    width: 100px;
-}
 
 .news {
     width: 100%;
@@ -562,6 +560,7 @@ body {
 .service-img_second {
     margin: 0;
 }
+
 .service-img {
     margin: 0 10%;
     text-align: center;
@@ -579,26 +578,33 @@ body {
 display: block;
     
 }
+
 .recruit-company_size {
     width: 100%;
 }
 
 .faq {
    width: 100%;
-}
-
-.faq-title-jp {
-    width: 70%;
+  padding: 3px 0;
 }
 
 
 .footer-bar .header-logo {
-
     margin-left: 0;
 }
 
 .footer-bar .flex{
   display: block;
+}
+
+.faq-title {
+    margin-left: 40px;
+    line-height: 157px;
+}
+
+.faq-title-jp {
+    line-height: 75px;
+    margin-left: -40px;
 }
 
 }
