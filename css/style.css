@@ -600,11 +600,12 @@ display: block;
 }
 
 .faq {
-   width: 100%;
-  padding: 3px 0;
-  /* display: flex; */
-      margin: 0 auto;
-    margin-bottom: 40px;
+ width: 100%;  
+ padding: 3px 0;  
+ display: flex;    
+margin: 0 auto;    
+margin-bottom: 40px;  
+justify-content: center;
 }
 
 
@@ -615,18 +616,16 @@ display: block;
 .footer-bar .flex{
   display: block;
 }
-
-.faq-title {
-    margin-left: 25%;
-    line-height: 140px;
-    font-size: 35px;
+.faq-title-jp {  
+ line-height: 140px;
+ margin: 0 16%;  
+ width: auto;
+}
+.faq-title {  
+  line-height: 140px;
+  font-size: 35px;
 }
 
-.faq-title-jp {
-    line-height: 140px;
-    display: inline;
-    margin: 0 auto;
-  }
 
 
 }
