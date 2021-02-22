@@ -550,12 +550,21 @@ ul{
 
 /* ------------------------- */
 
+
+#firstview{
+  position: relative;
+}
+
+
 .catchcopy {
-    text-align: center;
+     text-align: center;
+    /* padding: 0 10px; */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%);
     margin: auto;
-    padding: 0 10px;
-    left: 0; 
-    top: 40%;
+    width: 80%;
 }
 
 
@@ -600,7 +609,7 @@ display: block;
 }
 
 .faq {
- width: 100%;  
+ width: 90%;  
  padding: 3px 0;  
  display: flex;    
 margin: 0 auto;    
